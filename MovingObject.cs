@@ -62,7 +62,8 @@ public partial class MovingObject : Node2D
 	public override void _Process(double delta)
 	{
 		this.current_velocity += this.acceleration*(float)delta;
-		Position+=this.current_velocity;
-		GD.Print(this.acceleration);
+		this.Position += this.current_velocity;
+		// GD.Print(this.acceleration);
+		GD.Print(this.Position);
 	}
 }
