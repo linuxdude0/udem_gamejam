@@ -8,3 +8,5 @@ script = ExtResource("1_fdjo2")
 
 [node name="Icon" type="Sprite2D" parent="."]
 texture = ExtResource("2_d6pmm")
+
+[node name="Node2D" type="Node2D" parent="."]
