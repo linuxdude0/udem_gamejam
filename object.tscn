@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://d25i4krwkquib"]
+
+[ext_resource type="Script" path="res://MovingObject.cs" id="1_fdjo2"]
+[ext_resource type="Texture2D" uid="uid://bty011xag88px" path="res://icon.svg" id="2_d6pmm"]
+
+[node name="MovingObject" type="Node2D"]
+script = ExtResource("1_fdjo2")
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("2_d6pmm")
